@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'OnlineEduca'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F855252DC5C04F8A8A8FE4D06D31CBB6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EE3E4EFAA1C549E39ADAC0D03E2B412D }}
           package: .
