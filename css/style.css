@@ -274,7 +274,6 @@ section {
   line-height: 2.5;
   padding: 1rem 0;
 }
-
 .course-2 {
   display: -ms-grid;
   display: grid;
@@ -284,89 +283,16 @@ section {
 }
 
 .course-2 .box {
-  padding: 2rem;
-  border-radius: 1rem;
-  background: #f5f5f5;
-}
-
-.course-2 .box .image {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.course-2 .box .image img {
-  height: 22rem;
-}
-
-.course-2 .box .content span {
-  font-size: 1.4rem;
-  color: #fa1d86;
-  background: #ffeaf4;
-  padding: .5rem 1rem;
-}
-
-.course-2 .box .content h3 {
-  color: #302851;
-  line-height: 2;
-  margin-top: 1.5rem;
-  font-size: 2rem;
-}
-
-.course-2 .box .content p {
-  font-size: 1.4rem;
-  color: #666;
-  line-height: 2.5;
-  padding: 1rem 0;
-}
-
-.course-2 .box .content .icons {
-  margin-top: 2rem;
-  padding-top: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
-}
-
-.course-2 .box .content .icons a {
-  font-size: 1.4rem;
-  color: #666;
-}
-
-.course-2 .box .content .icons a:hover {
-  color: #fa1d86;
-}
-
-.course-2 .box .content .icons a i {
-  padding-right: .5rem;
-  color: #fa1d86;
-}
-
-.course-3 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
-  gap: 1.5rem;
-}
-
-.course-3 .box {
   text-align: center;
   overflow: hidden;
 }
 
-.course-3 .box:hover .video video {
+.course-2 .box:hover .video video {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.course-3 .box .video {
+.course-2 .box .video {
   height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -374,7 +300,7 @@ section {
   position: relative;
 }
 
-.course-3 .box .video video {
+.course-2 .box .video video {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -382,7 +308,7 @@ section {
   cursor: pointer;
 }
 
-.course-3 .box .video i {
+.course-2 .box .video i {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -399,17 +325,17 @@ section {
   z-index: 10;
 }
 
-.course-3 .box .content {
+.course-2 .box .content {
   padding-top: 1rem;
 }
 
-.course-3 .box .content h3 {
+.course-2 .box .content h3 {
   font-size: 1.7rem;
   color: #302851;
   padding: .5rem 0;
 }
 
-.course-3 .box .content p {
+.course-2 .box .content p {
   font-size: 1.5rem;
   color: #666;
 }
@@ -546,75 +472,6 @@ section {
   color: #666;
   font-size: 1.5rem;
 }
-
-.blog {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
-  gap: 1.5rem;
-}
-
-.blog .box .image {
-  height: 25rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-.blog .box .image img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: .5rem;
-}
-
-.blog .box .content {
-  padding: 2rem;
-  background: #f5f5f5;
-}
-
-.blog .box .content .icons {
-  padding: 1.5rem 0;
-  margin-bottom: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.blog .box .content .icons a {
-  font-size: 1.4rem;
-  color: #666;
-}
-
-.blog .box .content .icons a:hover {
-  color: #224bcf;
-}
-
-.blog .box .content .icons a i {
-  padding-right: .5rem;
-  color: #224bcf;
-}
-
-.blog .box .content h3 {
-  font-size: 1.7rem;
-  padding: .5rem 0;
-  color: #302851;
-}
-
-.blog .box .content p {
-  padding: 1rem 0;
-  font-size: 1.4rem;
-  line-height: 2.5;
-  color: #666;
-}
-
 .contact .icons-container {
   display: -ms-grid;
   display: grid;
@@ -693,14 +550,6 @@ section {
 .contact .row form textarea {
   height: 15rem;
   resize: none;
-}
-
-.contact .row .map {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 42rem;
-          flex: 1 1 42rem;
-  width: 100%;
-  border-radius: 1rem;
 }
 
 .footer {

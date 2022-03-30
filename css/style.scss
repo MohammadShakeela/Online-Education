@@ -261,72 +261,6 @@ section{
     @include grid(31rem);
 
     .box{
-        padding:2rem;
-        border-radius: 1rem;
-        background: $light-bg;
-
-        .image{
-            margin-bottom: 2rem;
-            text-align: center;
-
-            img{
-                height: 22rem;
-            }
-        }
-
-        .content{
-
-            span{
-                font-size: 1.4rem;
-                color:$pink;
-                background: $light-pink;
-                padding:.5rem 1rem;
-            }
-
-            h3{
-                color:$black;
-                line-height: 2;
-                margin-top: 1.5rem;
-                font-size: 2rem;
-            }
-
-            p{
-                font-size: 1.4rem;
-                color:$light-color;
-                line-height: 2.5;
-                padding:1rem 0;
-            }
-
-            .icons{
-                margin-top: 2rem;
-                padding-top: 2rem;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                border-top: $border;
-
-                a{
-                    font-size: 1.4rem;
-                    color:$light-color;
-
-                    &:hover{
-                        color:$pink;
-                    }
-
-                    i{
-                        padding-right: .5rem;
-                        color:$pink;
-                    }
-                }
-            }
-        }
-    }
-}
-
-.course-3{
-    @include grid(31rem);
-
-    .box{
         text-align: center;
         overflow: hidden;
 
@@ -488,66 +422,6 @@ section{
     }
 }
 
-.blog{
-    @include grid(31rem);
-
-    .box{
-
-        .image{
-            height:25rem;
-            width: 100%;
-            overflow: hidden;
-
-            img{
-                height: 100%;
-                width:100%;
-                object-fit: cover;
-                border-radius: .5rem;
-            }
-        }
-
-        .content{
-            padding:2rem;
-            background:$light-bg;
-
-            .icons{
-                padding:1.5rem 0;
-                margin-bottom: 1rem;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-
-                a{
-                    font-size: 1.4rem;;
-                    color:$light-color;
-
-                    &:hover{
-                        color:$blue;
-                    }
-
-                    i{
-                        padding-right: .5rem;
-                        color:$blue;
-                    }
-                }
-            }
-
-            h3{
-                font-size: 1.7rem;
-                padding:.5rem 0;
-                color:$black;
-            }
-
-            p{
-                padding:1rem 0;
-                font-size: 1.4rem;
-                line-height: 2.5;
-                color:$light-color;
-            }
-        }
-    }
-}
-
 .contact{
 
     .icons-container{
@@ -620,11 +494,7 @@ section{
             }
         }
 
-        .map{
-            flex:1 1 42rem;
-            width: 100%;
-            border-radius: 1rem;
-        }
+        
     }
 }
 
